@@ -24,6 +24,8 @@ typedef int64_t INTN;
 typedef unsigned char CHAR8;
 typedef uint16_t CHAR16;
 
+typedef UINT64 EFI_LBA;
+
 typedef UINTN EFI_STATUS;
 #define WCHAR CHAR16
 

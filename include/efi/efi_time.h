@@ -23,3 +23,9 @@ typedef struct {
 #define EFI_TIME_IN_DAYLIGHT 0x02
 
 #define EFI_UNSPECIFIED_TIMEZONE 0x07FF
+
+typedef struct {
+    UINT32 Resolution;
+    UINT32 Accuracy;
+    BOOLEAN SetsToZero;
+} EFI_TIME_CAPABILITIES;
